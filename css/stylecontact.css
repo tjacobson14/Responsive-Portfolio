@@ -1,0 +1,107 @@
+body {
+    background-image: url(../images/cartographer.png);
+    height: -10%;
+}
+.wrapper {
+    widows: 100%;
+    padding:0px;
+    margin: 0 auto 0 auto;
+}
+
+.header {
+    width: 22%;
+    height:90px;
+    margin-left: 200px;
+    background: #4aaaa5;
+    padding:0px; 
+}
+
+.header h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    padding:25px;
+    font-weight: 600;
+}
+
+.contatiner{
+    width: 100%;
+    height: auto;
+    border: 1cm;
+}
+
+.nav{
+    width: 100%;
+    height:90px;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+.nav ul {
+    margin-left: 920px;
+    margin-top: -90px;
+    padding:10px;
+}
+
+.nav ul li{
+    display: inline;
+    line-height: 60px;
+    padding: 20px;
+}
+
+.nav ul li a{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: #777777;
+}
+
+.nav ul li a hover{
+    color: #080404;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/cartographer.png);
+}
+
+.box {
+    width:960px;
+    height:500px;
+    background-color:#ffff;
+    padding:20px;
+    margin: 200px;
+    border: 3px solid #dddddd;
+}
+
+.box h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    padding:25px;
+    color: #4aaaa5;
+    font-weight: 600;
+}
+
+.box img {
+    width: 200px;
+    height: 400;
+    border: 2px solid #dddddd;
+    margin-left: 15px;
+}
+
+.footer{
+    width: 100%;
+    height:70px;
+    background: #535252;
+    border-top: 10px solid #4aaaa5;
+}
+
+#contactform {
+    color: #777777;
+}
+ 
+#contactform fname {
+    width: 800px;
+    height: 10px;
+}
